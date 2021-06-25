@@ -17,14 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.name         = "testFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "Kısa özet."
+  spec.summary      = "A short description of testFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Test projesi"
+  spec.description  = <<-DESC
+			"şimdilik"
 
   spec.homepage     = "http://EXAMPLE/testFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT -- Free license"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -78,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/namikkaya/testFramework", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/namikkaya/testFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,9 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files = "Classes/**/*.swift"
-  #spec.source_files = "lib/Classes/**/*"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
