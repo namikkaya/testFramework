@@ -73,9 +73,9 @@
 		4DA6A975268648BF00620C07 /* testFramework */ = {
 			isa = PBXGroup;
 			children = (
+				4DA6AA0726865C2A00620C07 /* lib */,
 				4DA6A976268648BF00620C07 /* testFramework.h */,
 				4DA6A977268648BF00620C07 /* Info.plist */,
-				4DA6A98D2686490E00620C07 /* resTestClass.swift */,
 			);
 			path = testFramework;
 			sourceTree = "<group>";
@@ -87,6 +87,14 @@
 				4DA6A983268648C000620C07 /* Info.plist */,
 			);
 			path = testFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4DA6AA0726865C2A00620C07 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4DA6A98D2686490E00620C07 /* resTestClass.swift */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
