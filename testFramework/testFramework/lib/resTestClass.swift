@@ -16,7 +16,9 @@ protocol ResTestClassDelegate:AnyObject {
 extension ResTestClassDelegate {
     func rest(cvp: String?) {}
 }
-
+// test2 commit1
+// test2 commit2
+// test2 commit3
 class resTestClass:NSObject {
     weak var delegate:ResTestClassDelegate?
     override init() {
