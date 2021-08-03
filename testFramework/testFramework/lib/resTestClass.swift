@@ -15,6 +15,7 @@ extension ResTestClassDelegate {
     func rest(cvp: String?) {}
 }
 // test2 commit1
+// test2 commit2
 class resTestClass:NSObject {
     weak var delegate:ResTestClassDelegate?
     override init() {
